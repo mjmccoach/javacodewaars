@@ -18,14 +18,14 @@ class IsogramTest {
 
     @Test
     public void FixedTests() {
-        assertEquals(true, isogram.isIsogram("Dermatoglyphics"));
-        assertEquals(true, isogram.isIsogram("isogram"));
-        assertEquals(false, isogram.isIsogram("moose"));
-        assertEquals(false, isogram.isIsogram("isIsogram"));
-        assertEquals(false, isogram.isIsogram("aba"));
-        assertEquals(false, isogram.isIsogram("moOse"));
-        assertEquals(true, isogram.isIsogram("thumbscrewjapingly"));
-        assertEquals(true, isogram.isIsogram(""));
+        assertTrue(isogram.isIsogram("Dermatoglyphics"));
+        assertTrue(isogram.isIsogram("isogram"));
+        assertFalse(isogram.isIsogram("moose"));
+        assertFalse(isogram.isIsogram("isIsogram"));
+        assertFalse(isogram.isIsogram("aba"));
+        assertFalse(isogram.isIsogram("moOse"));
+        assertTrue(isogram.isIsogram("thumbscrewjapingly"));
+        assertTrue(isogram.isIsogram(""));
     }
 
 }

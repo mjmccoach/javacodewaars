@@ -18,10 +18,6 @@ public class Isogram {
                 usedLetters.add(character);
             }
         }
-        //make list of letters
-        //iterate through string
-        //if first letter don't check if letter exists in array
-        //otherwise check if letter exists and if it does set outcome to false and break out
         return outcome;
     }
 }
