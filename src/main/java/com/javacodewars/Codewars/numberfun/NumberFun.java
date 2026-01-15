@@ -7,7 +7,6 @@ public class NumberFun {
             return -1;
         }
         for (long i = sq + 1; i < Integer.MAX_VALUE; i++) {
-            System.out.print(i);
             boolean isNumberSquare = isSquare(i);
             if (isNumberSquare) {
                 nextSquare = i;
