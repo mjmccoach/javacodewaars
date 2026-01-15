@@ -5,7 +5,6 @@ import java.util.List;
 
 public class PhoneNumberGenerator {
     public static String createPhoneNumber(int[] numbers) {
-        // Your code here!
         List<Integer> numbersArrayList = new ArrayList<>();
 
         for (int number : numbers) {
