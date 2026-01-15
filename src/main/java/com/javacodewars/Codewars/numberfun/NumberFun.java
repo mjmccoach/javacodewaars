@@ -2,8 +2,6 @@ package com.javacodewars.Codewars.numberfun;
 
 public class NumberFun {
     public static long findNextSquare(long sq) {
-        //iterate through longs
-        //do a find first on next long that meets square number conditions
         long nextSquare = 0;
         if (!isSquare(sq)) {
             return -1;
