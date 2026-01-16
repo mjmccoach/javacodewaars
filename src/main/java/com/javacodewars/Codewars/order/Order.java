@@ -5,10 +5,6 @@ import java.util.Map;
 
 public class Order {
     public static String order(String words) {
-        //split each word and find number in it
-        //push to an index in an array
-        //convert that array to a string and return it
-
         Map<Integer, String> wordMap = new HashMap<>();
         String[] wordsArray = words.split(" ");
         for (String word : wordsArray) {
