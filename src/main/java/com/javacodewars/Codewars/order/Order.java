@@ -7,8 +7,10 @@ public class Order {
     public static String order(String words) {
         Map<Integer, String> wordMap = new HashMap<>();
         String[] wordsArray = words.split(" ");
+
         for (String word : wordsArray) {
             String[] wordChars = word.split("");
+
             for (String character : wordChars) {
                 boolean isDigit = isInteger(character);
                 if (isDigit) {
